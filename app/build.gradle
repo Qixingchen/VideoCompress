@@ -36,5 +36,5 @@ dependencies {
     implementation "com.github.Qixingchen:rx-android-file-picker:V1.1.0"
     implementation 'com.github.Qixingchen:VideoPlayer:V1.1.0'
     implementation "com.github.Qixingchen:Rx-Utils:V1.2.6"
-    implementation "com.github.Qixingchen:Android-Base-Utils:V1.1.0"
+    implementation "com.github.Qixingchen:Android-Base-Utils:V1.1.2"
 }

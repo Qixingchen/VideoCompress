@@ -27,9 +27,9 @@ dependencies {
 
     implementation "com.android.support:appcompat-v7:$rootProject.supportLibraryVersion"
     implementation "com.github.Qixingchen:Rx-Utils:V1.2.6"
-    implementation "com.github.Qixingchen:Android-Base-Utils:V1.1.0"
+    implementation "com.github.Qixingchen:Android-Base-Utils:V1.1.2"
 
-    api 'com.github.Qixingchen.media-for-mobile:android:V1.0.0'
+    implementation 'com.github.Qixingchen.media-for-mobile:android:V1.0.0'
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'

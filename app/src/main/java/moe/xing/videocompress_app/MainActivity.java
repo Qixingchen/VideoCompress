@@ -66,7 +66,14 @@ public class MainActivity extends AppCompatActivity {
                         if (rate < 1) {
                             rate = 3000;
                         }
-                        return RxCompress.Compress(new org.m4m.Uri(Uri.fromFile(file).toString()), out, 0, 0, rate);
+                        try {
+                            int[] outSize = RxCompress.getSizeWithMaxSideSize(Uri.fromFile(file).toString(), 1280);
+                            return RxCompress.Compress(Uri.fromFile(file).toString(), out, outSize, rate);
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                            return RxCompress.Compress(Uri.fromFile(file).toString(), out, 0, 0, rate);
+                        }
+
 
                     }
                 })

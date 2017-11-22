@@ -12,7 +12,7 @@ VideoCompress
 ### how to use
 ``` java
 
-RxCompress.Compress(new org.m4m.Uri(Uri), outFile, outHeight, outWidth, rateInKib)
+RxCompress.Compress(FileUri, outFile, outHeight, outWidth, rateInKib)
 .subscribe(new Subscriber<Double>() {
         @Override
         public void onCompleted() {

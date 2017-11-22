@@ -17,7 +17,8 @@
             android:id="@+id/rate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="video rate in KiB"/>
+            android:hint="video rate in KiB"
+            android:inputType="number"/>
 
         <Button
             android:id="@+id/select_file"
