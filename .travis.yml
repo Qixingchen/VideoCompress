@@ -28,7 +28,8 @@ android:
   
 script:
   - chmod +x ./gradlew :lib:assembleDebug
-  - chmod +x ./gradlew :rxfiliblepicker:assembleRelease
+  - chmod +x ./gradlew :lib:assembleRelease
+  - chmod +x ./gradlew :app:assembleRelease
 #  - ./gradlew :rxfilepicker:jacocoTestReportDebug coveralls
 #  - ./gradlew testDebugUnitTest
 #  - ./gradlew createDebugCoverageReport coveralls
