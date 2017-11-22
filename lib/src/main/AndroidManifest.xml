@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="moe.xing.videocompress">
+
+    <application>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.2"
+            tools:replace="android:value"/>
+    </application>
+</manifest>
